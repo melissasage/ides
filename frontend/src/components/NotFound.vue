@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>Hello world! I'm in Vue.js.</p>
+    <p>Error 404. Oops?</p>
   </div>
 </template>
