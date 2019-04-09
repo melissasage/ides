@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify
-from random import *
+from random import randint
 
 app = Flask(__name__,
             static_folder="./dist/static",
