@@ -1,5 +1,6 @@
-# Created by https://www.gitignore.io/api/git,node,vuejs,flask,python
-# Edit at https://www.gitignore.io/?templates=git,node,vuejs,flask,python
+
+# Created by https://www.gitignore.io/api/git,node,flask,python
+# Edit at https://www.gitignore.io/?templates=git,node,flask,python
 
 ### Flask ###
 instance/*
@@ -283,10 +284,8 @@ typings/
 
 # Pyre type checker
 
-### Vuejs ###
-# Recommended template: Node.gitignore
+# End of https://www.gitignore.io/api/git,node,flask,python
 
-npm-debug.log
-yarn-error.log
-
-# End of https://www.gitignore.io/api/git,node,vuejs,flask,python
+### Webpack bundle ###
+bundle.js
+bundle.js.map
