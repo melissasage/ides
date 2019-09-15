@@ -289,3 +289,6 @@ typings/
 ### Webpack bundle ###
 bundle.js
 bundle.js.map
+
+### VSCodium ###
+.vscode/
