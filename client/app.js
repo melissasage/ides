@@ -1,18 +1,11 @@
 import React from "react";
+import Schedule from "./schedule"
 
 // Start by writing here! Frontend first!
+const dummy = [{time: "7am", title: "breakfast"}, {time: "12pm", title: "lunch"}, {time: "6pm", title: "dinner"}]
 
 const App = () => {
-  return (
-  <div>
-  <div>Schedule</div>
-  <div>Today
-    <div>9am - eat breakfast</div>
-    <div>12pm - eat lunch</div>
-    <div>6pm - eat dinner</div>
-  </div>
-  </div>
-  )
+  return <Schedule events={dummy} />
 };
 
 export default App;
