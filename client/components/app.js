@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import Schedule from "./components"
 
 // Start by writing here! Frontend first!
