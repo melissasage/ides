@@ -8,13 +8,14 @@ const GET_EVENTS = 'GET_EVENTS'
 
 // Action Creators
 const showEvents = events => ({
-  type: SHOW_EVENTS,
+  type: GET_EVENTS,
   events
 })
 
 export const getEvents = () => {
   return async (dispatch, getState, { axios }) => {
-    const { data } = await axios.get('/api/events')
+    //    const { data } = await axios.get('/api/events')
+    const data = dummyState.events
     dispatch(showEvents(data))
   }
 }
@@ -29,11 +30,11 @@ const initialState = {
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
-    case SHOW_EVENTS:
+    case GET_EVENTS:
       return { ...state, events: action.events }
-        default:
+    default:
       return state
-    }
+  }
 }
 
 export default createStore(
